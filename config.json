@@ -1,0 +1,20 @@
+{
+    "data_dir": "data",
+    "model_name_or_path": "camembert-base",
+    "output_dir": "output",
+    "train_file": "train.json",
+    "validation_file": "validation.json",
+    "test_file": "test.json",
+    "logging_dir": "logging_dir",
+    "max_seq_length": 128,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "save_steps": 1000,
+    "seed": 1,
+    "n_gpu": 1,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true,
+    "push_to_hub": false,
+    "push_to_hub_model_id": "punct_restore_fr"
+}
